@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Travel</title>
+    <link rel="stylesheet" href="style.css" />
+     <!-- google fonts family -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    
+       <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+     <!-- Swiper js -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+</head> 
+<body>
+    <!-- header container start -->
+    <header>
+        
+        <div class="navbar-container">
+            <i id="menu-bar" class="fa-solid fa-bars"></i>
+            <div class="nav-logo">
+                <span>T</span>ravel
+            </div>
+            <div class="nav-sec">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#packages">Packages </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Review</a></li>              
+                    <li><a href="#contact">Contact</a></li>               
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <i id="search-btn" class="fa-solid fa-magnifying-glass"></i>
+                <i id="login-btn" class="fa-solid fa-user"></i>
+
+            </div>
+            <div class="search-contanier">
+                <input type="search" name="search" placeholder="search here...">
+                <label for="search" class="fa-solid fa-magnifying-glass"></label>
+               
+            </div>
+           
+        </div>
+    </header>
+     <!-- header container  start -->
+    <!-- login-container start -->
+    <div class="login-container">
+        <i id="login-closeBar" class="fa-solid fa-xmark"></i>
+        <div class="login">
+            <h3>login</h3>
+        <div class="login-input">
+         <input class="input-box" type="email" name="email" placeholder="enter your email" >
+         <input class="input-box" type="password" name="password" placeholder="enter your password" >
+         <button class="btn" type="button" name="button">login-now</button>
+          <div class="login-checkbox">
+            <label for="checkbox">remember me</label>
+            <input type="checkbox" name="checkbox">
+          </div>
+          <div class="login-content">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't Have And Account ?<a href="#">Register Now</a></p>
+          </div>
+        </div>
+       </div>
+       
+
+    </div>
+      <!-- login-container end -->
+
+    <!-- home-container  start -->
+
+    <section class="home" id="home">
+        <div class="home-heading">
+            <h3>ADVENTURE IS WORTHWHILE</h3>
+            <p>Discover New Place With Us , Adventure Awaits</p>
+            <button class="btn" >Discover More</button>
+        </div>
+
+        <div class="controls">
+            <span class="video-btn active" data-src="https://player.vimeo.com/progressive_redirect/playback/838102825/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=f9b9b0a1e5935279a269e8f35a1b6813f0a10cb67327ff4a938123fd6438e6e3" ></span>
+
+            <span class="video-btn" data-src="https://player.vimeo.com/progressive_redirect/playback/800053348/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=48cb5492b54474e2850d3c962b5697ceb3d530806c8585f594d73ed429cd6604" ></span>
+
+            <span class="video-btn" data-src="https://player.vimeo.com/progressive_redirect/playback/831378685/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=ac198e0e0614372a99c4844601de4d227ec101ddb16ea2eacf061f97d46e0783" ></span>
+        </div>
+        <div class="video-container">
+            <video id="video-slider" src="https://player.vimeo.com/progressive_redirect/playback/838102825/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=f9b9b0a1e5935279a269e8f35a1b6813f0a10cb67327ff4a938123fd6438e6e3" loop muted autoplay></video>
+
+        </div>
+    </section>
+     <!-- home-container  end -->
+    <!-- book container start -->
+    <section id="book">
+       
+            <h3 class="heading">
+                   <span class="h-box">B</span>
+                   <span class="h-box">o</span>
+                   <span class="h-box">o</span>
+                   <span class="h-box">k</span>
+                   <span></span>
+                   <span class="h-box">N</span>
+                   <span class="h-box">o</span>
+                   <span class="h-box">w</span>
+                </h3>
+       <div class="book-container">        
+            <div class="book-img">
+                <img src="https://images.pexels.com/photos/11377550/pexels-photo-11377550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400&h=250&fit=crop&crop=focalpoint" alt="bookSection-img" >
+            </div>
+            <div class="book-form">
+                <div class="book-box">
+                <label for="">Where To</label>
+                <input type="text" name="text" placeholder="place name" >
+                </div>
+                <div class="book-box">
+                    <label for="">How Many</label>
+                    <input type="number" name="number" placeholder="number of guest" >
+                </div>
+                <div class="book-box">
+                    <label for="">Arrivels</label>
+                    <input type="date" name="date"  >
+                </div>
+                <div class="book-box">
+                    <label for="">Leaving</label>
+                    <input type="date" name="date"  >
+                </div>
+                <button class="btn">Book here</button>
+            </div>
+
+        </div>
+       
+    </section>
+    <!-- book container  end -->
+    <!-- packages-contanier start -->
+    <section  id="packages">
+        <h3 class="heading">
+            <span class="h-box">P</span>
+            <span class="h-box">a</span>
+            <span class="h-box">c</span>
+            <span class="h-box">k</span>
+            <span class="h-box">a</span>
+            <span class="h-box">g</span>
+            <span class="h-box">e</span>
+         </h3>
+
+         <div class="packages-contant ">
+            <div class="package-card">
+                <img src="https://images.pexels.com/photos/8728511/pexels-photo-8728511.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  >
+                
+                <h3><i class="fa-solid fa-location-dot"></i>Mumbai</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet temporibus neque blanditiis illum recusandae provident tempora cupiditate voluptatem deleniti. Suscipit soluta beatae quis consectetur, odit non culpa architecto mollitia nulla!</p>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹2000<span>₹3000</span></p>
+                <button class="btn">Book now</button>
+            </div>
+
+            <div class="package-card">
+                <img src="https://images.pexels.com/photos/17636489/pexels-photo-17636489/free-photo-of-man-in-hat-and-with-backpack-standing-with-hills-behind.jpeg?auto=compress&cs=tinysrgb&w=400"  >
+                
+                <h3><i class="fa-solid fa-location-dot"></i>Mumbai</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet temporibus neque blanditiis illum recusandae provident tempora cupiditate voluptatem deleniti. Suscipit soluta beatae quis consectetur, odit non culpa architecto mollitia nulla!</p>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹2000<span>₹3000</span></p>
+                <button class="btn">Book now</button>
+            </div>
+
+            <div class="package-card">
+                <img src="https://images.pexels.com/photos/9630218/pexels-photo-9630218.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  >
+                
+                <h3><i class="fa-solid fa-location-dot"></i>Mumbai</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet temporibus neque blanditiis illum recusandae provident tempora cupiditate voluptatem deleniti. Suscipit soluta beatae quis consectetur, odit non culpa architecto mollitia nulla!</p>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹2000<span>₹3000</span></p>
+                <button class="btn">Book now</button>
+            </div>
+
+            <div class="package-card">
+                <img src="https://images.pexels.com/photos/5966311/pexels-photo-5966311.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  >
+                
+                <h3><i class="fa-solid fa-location-dot"></i>Mumbai</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet temporibus neque blanditiis illum recusandae provident tempora cupiditate voluptatem deleniti. Suscipit soluta beatae quis consectetur, odit non culpa architecto mollitia nulla!</p>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹2000<span>₹3000</span></p>
+                <button class="btn">Book now</button>
+            </div>
+
+            <div class="package-card">
+                <img src="https://images.pexels.com/photos/7787409/pexels-photo-7787409.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  >
+                
+                <h3><i class="fa-solid fa-location-dot"></i>Mumbai</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet temporibus neque blanditiis illum recusandae provident tempora cupiditate voluptatem deleniti. Suscipit soluta beatae quis consectetur, odit non culpa architecto mollitia nulla!</p>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹2000<span>₹3000</span></p>
+                <button class="btn">Book now</button>
+            </div>
+
+         </div>
+
+    </section>
+    <!-- packages-contanier end -->
+    <!-- services-contanier start -->
+    <section  id="services">
+        <h3 class="heading">
+            <span class="h-box">s</span>
+            <span class="h-box">e</span>
+            <span class="h-box">r</span>
+            <span class="h-box">v</span>
+            <span class="h-box">i</span>
+            <span class="h-box">c</span>
+            <span class="h-box">e</span>
+            <span class="h-box">s</span>
+         </h3>
+
+         <div class="services">
+            <div class="services-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus! Modi fuga deleniti, obcaecati amet asperiores nihil ut aperiam, fugiat harum dicta repudiandae aut porro accusantium provident quo corporis doloribus?</p>
+             </div>
+
+             <div class="services-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus! Modi fuga deleniti, obcaecati amet asperiores nihil ut aperiam, fugiat harum dicta repudiandae aut porro accusantium provident quo corporis doloribus?</p>
+             </div>
+
+             <div class="services-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus! Modi fuga deleniti, obcaecati amet asperiores nihil ut aperiam, fugiat harum dicta repudiandae aut porro accusantium provident quo corporis doloribus?</p>
+             </div>
+
+             <div class="services-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus! Modi fuga deleniti, obcaecati amet asperiores nihil ut aperiam, fugiat harum dicta repudiandae aut porro accusantium provident quo corporis doloribus?</p>
+             </div>
+
+             <div class="services-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ducimus! Modi fuga deleniti, obcaecati amet asperiores nihil ut aperiam, fugiat harum dicta repudiandae aut porro accusantium provident quo corporis doloribus?</p>
+             </div>
+    
+    
+         </div>
+    </section>
+  <!-- services-contanier end -->
+  <!-- gallery-container start -->
+  <section  id="gallery">
+    <h3 class="heading">
+        <span class="h-box">G</span>
+        <span class="h-box">a</span>
+        <span class="h-box">l</span>
+        <span class="h-box">l</span>
+        <span class="h-box">e</span>
+        <span class="h-box">r</span>
+        <span class="h-box">y</span>
+     </h3>
+
+     <div class="gallery">
+        <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2019/03/31/14/31/houses-4093227_640.jpg" >
+            </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>   
+          </div>
+          <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2018/08/29/22/52/woman-3640935_640.jpg" >
+               </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>
+          </div>
+          <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2016/10/18/08/13/travel-1749508_640.jpg" >
+               </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>
+          </div>
+          <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2014/08/27/18/24/girl-429380_640.jpg" >
+               </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>
+          </div>
+          <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2016/11/30/15/00/lighthouse-1872998_640.jpg" >
+               </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>
+          </div>
+          <div class="gallery-contant">
+            <div class="gallery-img">
+                <img src="https://cdn.pixabay.com/photo/2017/12/16/22/22/bora-bora-3023437_640.jpg" >
+               </div>
+               <div class="gallery-info">
+                 <h3>heading</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit aut rem vel, laborum, quisquam harum debitis quibusdam, vitae atque officiis esse officia! Officia sunt modi magni? Repudiandae, laboriosam eos.</p>
+            </div>
+          </div>
+     </div>
+  </section>
+  <!-- gallery-container end -->
+  <section  id="review">
+    <h3 class="heading">
+        <span class="h-box">r</span>
+        <span class="h-box">e</span>
+        <span class="h-box">v</span>
+        <span class="h-box">i</span>
+        <span class="h-box">e</span>
+        <span class="h-box">w</span>
+     </h3>
+
+
+    <div class="swiper review">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://cdn.pixabay.com/photo/2017/03/27/13/59/adult-2178904_640.jpg">
+                <h3>heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta perferendis veritatis laboriosam culpa mollitia quia, rem suscipit. Illo cumque adipisci, laudantium nostrum libero ullam dolor molestiae dolores molestias maxime.</p>
+                <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-regular fa-star"></i>
+               </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://cdn.pixabay.com/photo/2017/03/27/13/59/adult-2178904_640.jpg">
+                <h3>heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta perferendis veritatis laboriosam culpa mollitia quia, rem suscipit. Illo cumque adipisci, laudantium nostrum libero ullam dolor molestiae dolores molestias maxime.</p>
+                <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-regular fa-star"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://cdn.pixabay.com/photo/2017/03/27/13/59/adult-2178904_640.jpg">
+                <h3>heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta perferendis veritatis laboriosam culpa mollitia quia, rem suscipit. Illo cumque adipisci, laudantium nostrum libero ullam dolor molestiae dolores molestias maxime.</p>
+                <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-regular fa-star"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="https://cdn.pixabay.com/photo/2017/03/27/13/59/adult-2178904_640.jpg">
+                <h3>heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta perferendis veritatis laboriosam culpa mollitia quia, rem suscipit. Illo cumque adipisci, laudantium nostrum libero ullam dolor molestiae dolores molestias maxime.</p>
+                <div class="star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-regular fa-star"></i>
+               </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+  </section>
+  <!-- contact-container  start -->
+  <section  id="contact">
+    <h3 class="heading">
+        <span class="h-box">C</span>
+        <span class="h-box">o</span>
+        <span class="h-box">n</span>
+        <span class="h-box">t</span>
+        <span class="h-box">a</span>
+        <span class="h-box">c</span>
+        <span class="h-box">t</span>
+     </h3>
+
+     <div class="contact-container" >
+        <form action="">
+            <div class="form-box">
+                <input class="formsec-input" type="name" name="name" placeholder="name">
+                <input class="formsec-input" type="emai" name="email" placeholder="email">
+            </div>
+            <div class="form-box">
+                <input class="formsec-input" type="number" name="number" placeholder="number">
+                <input class="formsec-input" type="text" name="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" id="" name="" rows="10" cols="30"></textarea>
+            <!-- <button class="btn" >Send Message</button> -->
+            <input class="btn" value="Send Message" type="submit">
+        </form>
+
+     </div>
+  </section>
+  <!-- contact-container  end -->
+  <!-- footer-container start -->
+  <footer>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-sec">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, soluta ad veritatis sequi ea temporibus velit, earum nemo nobis ex maxime neque eveniet asperiores id molestias, exercitationem a voluptatum omnis?</p>
+            </div>
+            <div class="footer-sec">
+                <h3>Branch location</h3>
+                <a href="#">India</a>
+                <a href="#">Usa</a>
+                <a href="#">France</a>
+                <a href="#">Japan</a>
+            </div>
+            <div class="footer-sec">
+                <h3>Quick link</h3>
+                <a href="#home">Home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-sec">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linkedin</a>
+            </div>
+        </div>
+        <div class="copyright">
+          Created by <span> Mr. Web Designer</span>  || All Rights Reserved
+        </div>
+    </div>
+ </footer>
+ <!-- footer-container end -->
+
+ 
+    <!-- script file  -->
+      <script src="ecom.js"></script>
+</body>
+</html>
